@@ -101,3 +101,12 @@
 - no-wrap: 아이템들을 한줄로 나열한다.
 - wrap: 아이템들을 여러줄로 나눠서 나열한다.
 - wrap-reverse: 아이템들을 여러줄로 나눠서 나열하는데 반대로 나열된다.
+
+#### 예시
+
+<pre><code>
+  .flexbox-container{
+    display: flex;
+    flex-wrap: no-wrap;
+  }
+<code><pre>
