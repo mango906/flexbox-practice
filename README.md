@@ -63,7 +63,29 @@
 
 <pre><code>
   .flexbox-container{
-    display:flex;
+    display: flex;
     justify-content: flex-start;
+  }
+</code></pre>
+
+### align-items
+
+#### 기본정의
+
+- flex item들이 차지하는 공간을 결정한다.
+
+#### 속성값
+
+- stretch: 수직으로 가득 채운다.
+- center: 수직 중앙 정렬 한다.
+- start: 수직 위로 정렬한다.
+- end: 수직 아래로 정렬한다.
+
+#### 예시
+
+<pre><code>
+  .flexbox-container{
+    display: flex;
+    align-items: start;
   }
 </code></pre>
